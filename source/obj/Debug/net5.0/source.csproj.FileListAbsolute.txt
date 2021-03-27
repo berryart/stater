@@ -1,0 +1,12 @@
+C:\Users\Artem\Desktop\stater\source\bin\Debug\net5.0\source.deps.json
+C:\Users\Artem\Desktop\stater\source\bin\Debug\net5.0\source.dll
+C:\Users\Artem\Desktop\stater\source\bin\Debug\net5.0\ref\source.dll
+C:\Users\Artem\Desktop\stater\source\bin\Debug\net5.0\source.pdb
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\source.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\source.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\source.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\source.AssemblyInfo.cs
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\source.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\source.dll
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\ref\source.dll
+C:\Users\Artem\Desktop\stater\source\obj\Debug\net5.0\source.pdb
