@@ -59,8 +59,6 @@ namespace Stater {
         }
 
         public static implicit operator string(State value) {
-            if (value.IsCompound)
-                throw new Exception($"Unablet to assign state to string: state is compound!");
             return value.ToString();
         }
         public static implicit operator int(State value) {
@@ -122,10 +120,6 @@ namespace Stater {
 
         public override string ToString() {
             return Convert.ToString(value);
-        }
-
-        public bool StartsWith(string v) {
-            return ToString().StartsWith(v);
         }
 
         public bool ToBool() {
@@ -277,9 +271,13 @@ namespace Stater {
             }
 
             var result = "{";
+            var comaCounter = 1;
             foreach (var kv in Dict) {
-                var val = kv.Value != null ? kv.Value.ToJson() : "null";
-                result += "\"" + kv.Key + "\": " + kv.Value.ToJson() + ",";
+                result += "\"" + kv.Key + "\": " + kv.Value.ToJson();
+                if (comaCounter < Dict.Count) {
+                    comaCounter += 1;
+                    result += ",";
+                }
             }
             result += "}";
             
